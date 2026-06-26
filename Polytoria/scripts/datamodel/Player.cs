@@ -1137,7 +1137,7 @@ public sealed partial class Player : NPC
 	{
 		Automatic, // Default value (works how it did before), automatically switches between rotating to movement or facing camera when Ctrl Locked or in First Person
 		CameraLocked,
-		RotateToMovement,
-		RotateToMovementCtrlLockOnly // separate version that still locks in First Person, will only rotate to movement when Ctrl Locked
+		Movement,
+		MovementCtrlLockOnly // separate version that still locks in First Person, will only rotate to movement when Ctrl Locked
 	}
 }
