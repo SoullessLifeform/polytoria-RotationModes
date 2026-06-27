@@ -54,10 +54,10 @@ public class DefaultMovement : IPlayerMovement
 				case Player.PlayerRotationModeEnum.CameraLocked:
 					camLocked = true;
 					break;
-				case Player.PlayerRotationModeEnum.RotateToMovement:
+				case Player.PlayerRotationModeEnum.Movement:
 					camLocked = false;
 					break;
-				case Player.PlayerRotationModeEnum.RotateToMovementCtrlLockOnly:
+				case Player.PlayerRotationModeEnum.MovementCtrlLockOnly:
 					camLocked = cam.IsFirstPerson;
 					break;
 			}
